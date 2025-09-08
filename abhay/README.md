@@ -22,17 +22,3 @@ The app extracts all links (`<a>` tags) from the webpage and provides the follow
 
 ---
 
-## Tech Stack
-
-- [Node.js](https://nodejs.org/) (Runtime)
-- [Axios](https://www.npmjs.com/package/axios) (For fetching webpages)
-- [Cheerio](https://www.npmjs.com/package/cheerio) (For HTML parsing)
-
----
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/backlink-checker.git
-   cd backlink-checker
