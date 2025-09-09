@@ -20,3 +20,5 @@ The app parses the markdown syntax and converts it into HTML tags.
 - Can be extended to handle images and code blocks.  
 
 ---
+
+Project overview: I am using Python programming language , markdown library for converting markdown to HTML and VS code editor for writing a code also css for styling to complete this project.
