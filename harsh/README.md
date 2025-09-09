@@ -16,4 +16,8 @@ The app calculates keyword usage and shows the most common words.
   - Total words  
   - Unique words  
   - Top 10 keywords  
-- Can be extended to highlight keywords in the text. 
+- Can be extended to highlight keywords in the text.
+
+## solution
+
+-done by python language and its library
