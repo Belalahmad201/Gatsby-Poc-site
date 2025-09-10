@@ -37,51 +37,52 @@ This project is a simple Node.js + Express web application that is first run loc
 
      COPY . .
 
-EXPOSE 3000
-CMD ["npm", "start"] 
+     EXPOSE 3000
+     CMD ["npm", "start"] 
 
 
-# After creating Dockerfile build the docker image
+  ### After creating Dockerfile build the docker image
 
-docker build -t hello-world:latest .
+      docker build -t hello-world:latest .
 
-# Run the container
+  ### Run the container
 
-docker run -d --name Ritesh -p 3000:3000 hello-world:latest
+      docker run -d --name Ritesh -p 3000:3000 hello-world:latest
 
-# Test in Browser
-http://localhost:3000
+  ### Test in Browser
+      http://localhost:3000
 
-# Deploy using docker compose
-Create a file named docker-compose.yml in the project root
-#
-services:
-  web:
-    build: .
-    image: hello-world:latest
-    ports:
-      - "3000:3000"
-    environment:
-      - NODE_ENV:production
-    restart: on-failure
-#
+  ### Deploy using docker compose
+       Create a file named docker-compose.yml in the project root
 
-# Run with Docker Compose
-
-docker compose up --build -d
-
-# Verify the App
-Visit http://localhost:3000
-
-- check logs
-docker compose logs -f
-
-# Stop the App
-
-docker compose down
+       services:
+          web:
+            build: .
+            image: hello-world:latest
+            ports:
+              - "3000:3000"
+            environment:
+              - NODE_ENV:production
+            restart: on-failure
 
 
-#### Useful Commands
+  ### Run with Docker Compose
+
+      docker compose up --build -d
+
+  ### Verify the App
+  
+      Visit http://localhost:3000
+
+      check logs
+      docker compose logs -f
+
+  ### Stop the App
+
+      docker compose down
+
+
+  ### Useful Commands
 
 #view images
 docker images
@@ -108,24 +109,24 @@ docker compose up --build -d
 docker compose down
 
 ### Project Structure
-node-express-hello-world/
-├── app.js
-├── package.json
-├── package-lock.json
-├── Dockerfile
-├── docker-compose.yml
-├── public/
-├── node_modules/
-├── routes/
-├── views/
-└── README.md
+    node-express-hello-world/
+    ├── app.js
+    ├── package.json
+    ├── package-lock.json
+    ├── Dockerfile
+    ├── docker-compose.yml
+    ├── public/
+    ├── node_modules/
+    ├── routes/
+    ├── views/
+    └── README.md
 
 ### Troubleshooting
 
 - Ensure Docker Desktop is running (Windows/macOS).
 - Before starting the docker make sure you have virtualization enabled and wsl is installed.
 
-  #Port already in use (3000)
+  Port already in use (3000)
    - on windows(Powershell/cmd)
      netstat -ano | findstr :3000
      taskkill /PID <PID> /F
