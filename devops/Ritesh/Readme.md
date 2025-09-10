@@ -28,14 +28,14 @@ This project is a simple Node.js + Express web application that is first run loc
      Create a file named Dockerfile in the project root
 
 
-FROM node:20-alpine
+     FROM node:20-alpine
 
-WORKDIR /app
+     WORKDIR /app
 
-COPY package*.json ./
-RUN npm install --production
+     COPY package*.json ./
+     RUN npm install --production
 
-COPY . .
+     COPY . .
 
 EXPOSE 3000
 CMD ["npm", "start"] 
