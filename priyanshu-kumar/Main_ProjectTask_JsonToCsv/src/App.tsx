@@ -34,16 +34,16 @@ const App: React.FC = () => {
     users: [
       {
         id: 1,
-        name: "John Doe",
-        email: "john@example.com",
+        name: "priyanshu kumar",
+        email: "priyanshu@example.com",
         department: "Engineering",
         skills: ["JavaScript", "React", "Node.js"],
         active: true
       },
       {
         id: 2,
-        name: "Jane Smith",
-        email: "jane@example.com",
+        name: "aniketkumar",
+        email: "aniket@example.com",
         department: "Design",
         skills: ["Figma", "Sketch", "CSS"],
         active: true

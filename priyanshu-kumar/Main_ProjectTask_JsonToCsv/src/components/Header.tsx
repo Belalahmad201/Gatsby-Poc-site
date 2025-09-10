@@ -1,6 +1,6 @@
 // Header.tsx
 import React from 'react';
-import { FileJson, Trash2 } from 'lucide-react';
+import { Trash2 } from 'lucide-react';
 import { HeaderProps } from '../types';
 
 const Header: React.FC<HeaderProps> = ({ jsonData, onClear }) => (
@@ -8,9 +8,7 @@ const Header: React.FC<HeaderProps> = ({ jsonData, onClear }) => (
         <div className="max-w-6xl mx-auto px-6 py-6">
             <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-black rounded-lg flex items-center justify-center">
-                        <FileJson className="h-5 w-5 text-white" />
-                    </div>
+
                     <div>
                         <h1 className="text-xl font-semibold text-black">
                             JSON to CSV Converter
