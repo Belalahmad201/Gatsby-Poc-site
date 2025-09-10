@@ -84,29 +84,29 @@ This project is a simple Node.js + Express web application that is first run loc
 
   ### Useful Commands
 
-#view images
-docker images
+     #view images
+      docker images
 
-#view running containers
-docker ps
+     #view running containers
+      docker ps
 
-#view stopped and running containers
-docker ps -a
+     #view stopped and running containers
+      docker ps -a
 
-#stop containers
-docker stop container_name
+     #stop containers
+      docker stop container_name
 
-#remove containers
-docker rm containerID/containerName
+     #remove containers
+      docker rm containerID/containerName
 
-#View container logs
-docker logs containerID/containerName
+     #View container logs
+      docker logs containerID/containerName
 
-#run with docker compose
-docker compose up --build -d
+     #run with docker compose
+      docker compose up --build -d
 
-#stop and remove with docker compose
-docker compose down
+     #stop and remove with docker compose
+      docker compose down
 
 ### Project Structure
     node-express-hello-world/
@@ -126,10 +126,10 @@ docker compose down
 - Ensure Docker Desktop is running (Windows/macOS).
 - Before starting the docker make sure you have virtualization enabled and wsl is installed.
 
-  Port already in use (3000)
-   - on windows(Powershell/cmd)
-     netstat -ano | findstr :3000
-     taskkill /PID <PID> /F
+- Port already in use (3000)
+  on windows(Powershell/cmd)
+      netstat -ano | findstr :3000
+      taskkill /PID <PID> /F
   
 
 
