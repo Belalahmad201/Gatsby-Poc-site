@@ -12,20 +12,20 @@ This project is a simple Node.js + Express web application that is first run loc
 4. Docker Compose which comes with docker desktop (can check with docker compose version)
 
    #clone the repository
-git clone https://github.com/eMahtab/node-express-hello-world
-cd node-express-hello-world
+     git clone https://github.com/eMahtab/node-express-hello-world
+      cd node-express-hello-world
 
-  #Run the App locally
-- Install the dependencies
-  npm install
+    #Run the App locally
+    - Install the dependencies
+      npm install
   
-- Start the app
-  npm start
+    - Start the app
+      npm start
 
-  now open in broweser - http://localhost:3000
+      now open in broweser - http://localhost:3000
   
-# Dockerize the App
-Create a file named Dockerfile in the project root
+ ### Dockerize the App
+     Create a file named Dockerfile in the project root
 
 #
 FROM node:20-alpine
