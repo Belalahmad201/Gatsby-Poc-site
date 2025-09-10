@@ -84,22 +84,3 @@ Final Verification :
 
      The application is now successfully containerized andrunning with Docker Compose on your Windows machine!
 
-
-
-## To create this file in VS Code:
-
-1. **Open the project folder** in VS Code
-2. **Create a new file**: Right-click in the file explorer → "New File"
-3. **Name it**: `README.md`
-4. **Paste the content** above
-5. **Save the file**: Ctrl + S
-
-Your README is now complete and professional! It includes:
-- ✅ Clear prerequisites
-- ✅ Step-by-step instructions
-- ✅ Useful commands
-- ✅ Project structure
-- ✅ Windows-specific troubleshooting
-- ✅ Final verification steps
-
-Well done! This documentation will help anyone (including your future self) understand and run your project easily.
