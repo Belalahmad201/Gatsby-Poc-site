@@ -11,11 +11,11 @@ This project is a simple Node.js + Express web application that is first run loc
 
 4. Docker Compose which comes with docker desktop (can check with docker compose version)
 
-# clone the repository
+   #clone the repository
 git clone https://github.com/eMahtab/node-express-hello-world
 cd node-express-hello-world
 
-# Run the App locally
+  #Run the App locally
 - Install the dependencies
   npm install
   
