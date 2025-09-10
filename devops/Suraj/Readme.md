@@ -68,6 +68,7 @@ services:
 docker compose up --build
 
 #Stop the App
+
 docker compose down
 
 
