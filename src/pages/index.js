@@ -1,3 +1,5 @@
+import Navbar from "../components/Navbar"
+
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
@@ -70,6 +72,8 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
+	 <Navbar />
+
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
