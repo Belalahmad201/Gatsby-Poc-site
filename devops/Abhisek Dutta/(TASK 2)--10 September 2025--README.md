@@ -32,7 +32,7 @@ cd node-express-hello-world
 ```
 
 ### 2. Add Pipeline Files
-Create the following files in your project directory:
+Create the following files in  project directory:
 - `pipeline.sh` (from this assignment)
 - `.eslintrc.js`
 - `app.test.js`
